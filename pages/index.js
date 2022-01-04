@@ -20,7 +20,6 @@ import {
   IoLogoTwitter,
   IoLogoInstagram,
   IoLogoGithub,
-  IoLogoDiscord
 } from 'react-icons/io5';
 
 const Page = () => {
