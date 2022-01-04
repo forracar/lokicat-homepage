@@ -12,7 +12,6 @@ const Work = () => {
           Toy toy <Badge>2016</Badge>
         </Title>
         <P>
-          {' '}
           Third person shooter arcade in 3D done by a group of 5 in Unity3D.
           Awarded for the best project with an excellent technical content
         </P>
@@ -34,7 +33,7 @@ const Work = () => {
           <ListItem>
             <Meta>Blogpost</Meta>
             <Link href="/">
-              How I've developed Toy toy <ExternalLinkIcon></ExternalLinkIcon>
+              How I&apos;ve developed Toy toy <ExternalLinkIcon></ExternalLinkIcon>
             </Link>
           </ListItem>
         </List>

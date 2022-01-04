@@ -7,7 +7,6 @@ import {
   List,
   ListItem,
   Icon,
-  SimpleGrid,
   useColorModeValue,
   Button
 } from '@chakra-ui/react';

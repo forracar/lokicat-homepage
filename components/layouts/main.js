@@ -5,7 +5,7 @@ import { Router } from 'next/router';
 import NoSsr from '../no-ssr';
 import VoxelCat from '../voxel-cat';
 
-const Main = ({ children, routes }) => {
+const Main = ({ children }) => {
   return (
     <Box as="main" pb={8}>
       <Head>
