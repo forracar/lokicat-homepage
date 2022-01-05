@@ -16,11 +16,7 @@ import Layout from '../components/layouts/article';
 import Section from '../components/section';
 import Paragraph from '../components/paragraph';
 import { BioSection, BioYear } from '../components/bio';
-import {
-  IoLogoTwitter,
-  IoLogoInstagram,
-  IoLogoGithub,
-} from 'react-icons/io5';
+import { IoLogoTwitter, IoLogoInstagram, IoLogoGithub } from 'react-icons/io5';
 
 const Page = () => {
   return (
@@ -41,7 +37,7 @@ const Page = () => {
           <Heading as="h2" variant="page.title">
             Oscar Forra Carbonell
           </Heading>
-          <p>Digital Craftman (Developer / Designer)</p>
+          <p>Digital Lokiman (Developer / Designer)</p>
         </Box>
         <Box
           flexShrink={0}
@@ -90,8 +86,30 @@ const Page = () => {
             Born in Barcelona, Spain.
           </BioSection>
           <BioSection>
+            <BioYear>2018</BioYear>
+            Worked as teaching assistant for first year college students at
+            TecnoCampus - Universitat Pompeu Fabra. Introduction to programming
+            with C#
+          </BioSection>
+          <BioSection>
+            <BioYear>2019</BioYear>
+            Worked at Movetia, Barcelona as iOS developer developing frameworks
+            and tools using Swift. Also, got experience and fluency in working
+            with services in REST, NPM and YARN.
+          </BioSection>
+          <BioSection>
             <BioYear>2020</BioYear>
-            Degree in Videogames production and design
+            Completed Degree in Videogames production and design at Universitat
+            Pompeu Fabra, Mataró
+          </BioSection>
+          <BioSection>
+            <BioYear>2020</BioYear>
+            Wroked at Pervasive-technologies, Barcelona as Software
+            developer. Responsive of Web development featuring multiple technologies
+            with Fluter , React, Material UI and Node.js. Earned experience with
+            services REST, Google Cloud Platform and backend web server.
+            Mandante to design web applications architecture and technical
+            documentation.
           </BioSection>
           <BioSection>
             <BioYear>2021</BioYear>
