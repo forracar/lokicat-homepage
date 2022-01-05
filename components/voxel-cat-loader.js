@@ -36,4 +36,5 @@ const Loader = () => {
 };
 
 CatContainer.displayName = 'voxel-container';
-export default { Loader, CatContainer };
+export { CatContainer };
+export default { Loader };
