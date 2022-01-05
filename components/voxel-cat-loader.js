@@ -12,10 +12,10 @@ export const CatSpinner = () => (
   />
 );
 
-export const CatContainer = forwardRef(({ children }, ref) => (
+const CatContainer = forwardRef(({ children }, ref) => (
   <Box
     ref={ref}
-    className="voxel-dog"
+    className="voxel-cat"
     m="auto"
     mt={['-20px', '-60px', '-120px']}
     mb={['-40px', '-140px', '-200px']}
@@ -35,4 +35,5 @@ const Loader = () => {
   );
 };
 
-export default Loader;
+CatContainer.displayName = 'voxel-container';
+export default { Loader, CatContainer };
