@@ -104,12 +104,12 @@ const Page = () => {
           </BioSection>
           <BioSection>
             <BioYear>2020</BioYear>
-            Wroked at Pervasive-technologies, Barcelona as Software
-            developer. Responsive of Web development featuring multiple technologies
-            with Fluter , React, Material UI and Node.js. Earned experience with
-            services REST, Google Cloud Platform and backend web server.
-            Mandante to design web applications architecture and technical
-            documentation.
+            Now a days at Pervasive-technologies, Barcelona as Software
+            developer. Responsive of Web development featuring multiple
+            technologies with Fluter , React, Material UI and Node.js. Earned
+            experience with services REST, Google Cloud Platform and backend web
+            server. Mandante to design web applications architecture and
+            technical documentation.
           </BioSection>
           <BioSection>
             <BioYear>2021</BioYear>
