@@ -1,9 +1,8 @@
 import { useState, useEffect, useRef, useCallback } from 'react';
-import { Box, Spinner } from '@chakra-ui/react';
 import * as THREE from 'three';
 import { OrbitControls } from 'three/examples/jsm/controls/OrbitControls';
 import { loadGLTFModel } from '../libs/ model';
-import { CatSpinner, CatContainer } from './voxel-cat-loader'
+import { CatSpinner, CatContainer } from './voxel-cat-loader';
 
 function easeOutCirc(x) {
   return Math.sqrt(1 - Math.pow(x - 1, 4));
@@ -13,7 +12,7 @@ const VoxelCat = () => {
   const refContainer = useRef();
   const [loading, setLoading] = useState(true);
   const [renderer, setRenderer] = useState();
-  const [_camera, setCamera] = useState();
+  const [, setCamera] = useState();
   const [target] = useState(new THREE.Vector3(-0.5, 1.2, 0));
   const [initialCameraPosition] = useState(
     new THREE.Vector3(
@@ -23,7 +22,7 @@ const VoxelCat = () => {
     )
   );
   const [scene] = useState(new THREE.Scene());
-  const [_controls, setControls] = useState();
+  const [, setControls] = useState();
 
   const handleWindowResize = useCallback(() => {
     const { current: container } = refContainer;
