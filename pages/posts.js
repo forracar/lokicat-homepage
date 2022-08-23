@@ -1,9 +1,9 @@
 import { Container, Heading, SimpleGrid } from '@chakra-ui/react';
 import Layout from '../components/layouts/article';
 import Section from '../components/section';
-import { GridItem } from '../components/grid-item';
+import { PostGridItem } from '../components/grid-item';
 
-import postImage from '../public/images/test.jpeg';
+import codeguidelineImage from '../public/images/codeguidelineImage.png'
 
 const Posts = () => (
   <Layout title="Posts">
@@ -11,12 +11,17 @@ const Posts = () => (
       <Heading as="h4" fontSize={20} mb={4}>
         Popular Posts
       </Heading>
-      <Section delay={0.1}>
-        <SimpleGrid columns={[1, 2, 2]} gap={6}>
-          <GridItem title="My Fish workflow" thumbnail={postImage}></GridItem>
-          <GridItem title="My home" thumbnail={postImage}></GridItem>
-        </SimpleGrid>
-      </Section>
+      <SimpleGrid  columns={[1, 1, 2]} gap={6}>
+        <Section>
+          <PostGridItem 
+              id="codeguideline" 
+              title="Code guideline for Unity" 
+              thumbnail={codeguidelineImage}>
+            As a programmer, it is very important to follow a coding standard and make sure others can read an easily 
+            understand code.
+          </PostGridItem>
+        </Section>
+      </SimpleGrid>
     </Container>
   </Layout>
 );

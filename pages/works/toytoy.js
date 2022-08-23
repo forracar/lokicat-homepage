@@ -13,13 +13,19 @@ const Work = () => {
         </Title>
         <P>
           Third person shooter arcade in 3D done by a group of 5 in Unity3D.
-          Awarded for the best project with an excellent technical content
+          Awarded for the best project with an excellent technical content.
+
+          The goal of the player is survive the maximum rounds posible killing enemies and upgrading guns.
         </P>
+        <br></br>
+        <WorkImage src="/images/toytoy_gameplay01.png" alt="toytoy"></WorkImage>
+        <WorkImage src="/images/toytoy_gameplay02.png" alt="toytoy"></WorkImage>
+        <WorkImage src="/images/toytoy_gameplay03.png" alt="toytoy"></WorkImage>
         <List ml={4} my={4}>
           <ListItem>
             <Meta>Trailer</Meta>
-            <Link href="https://www.youtube.com">
-              https://www.youtube.com <ExternalLinkIcon></ExternalLinkIcon>
+            <Link href="https://www.youtube.com/watch?v=W1wDrkoCWqI">
+              https://www.youtube.com/watch?v=W1wDrkoCWqI <ExternalLinkIcon></ExternalLinkIcon>
             </Link>
           </ListItem>
           <ListItem>
@@ -28,17 +34,10 @@ const Work = () => {
           </ListItem>
           <ListItem>
             <Meta>Stack</Meta>
-            <span>Unity3D, Autodesk</span>
-          </ListItem>
-          <ListItem>
-            <Meta>Blogpost</Meta>
-            <Link href="/">
-              How I&apos;ve developed Toy toy <ExternalLinkIcon></ExternalLinkIcon>
-            </Link>
+            <span>Unity3D, Autodesk, Adobe</span>
           </ListItem>
         </List>
-
-        <WorkImage src="/images/toytoy.png" alt="toytoy"></WorkImage>
+        <br></br>
       </Container>
     </Layout>
   );

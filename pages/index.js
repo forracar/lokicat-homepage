@@ -29,7 +29,7 @@ const Page = () => {
           mb={6}
           align="center"
         >
-          Hello, I&apos;m a full-stack developer based in Barcelona!
+          Hello, I&apos;m a full-stack/indie developer based in Barcelona!
         </Box>
 
         <Box dissplay={{ md: 'flex' }}></Box>
@@ -62,11 +62,11 @@ const Page = () => {
             Work
           </Heading>
           <Paragraph>
-            Oscar Forra is a full-stack developer based in Barcelona with a
+            Oscar Forra is a full-stack developer based in Barcelona with
             passion for building digital services/stuff he wants. He has a knack
             for all things launching products from planning and designing all
             the way to solving real-life problems with code. When not online, he
-            loves sport.
+            loves sport and videogames.
           </Paragraph>
           <Box align="center" my={4}>
             <NextLink href="/works">
@@ -87,28 +87,24 @@ const Page = () => {
           </BioSection>
           <BioSection>
             <BioYear>2018</BioYear>
-            Worked as teaching assistant for first year college students at
-            TecnoCampus - Universitat Pompeu Fabra. Introduction to programming
-            with C#
+            Worked as Teacher for first year college students at TecnoCampus - Universitat Pompeu Fabra.
           </BioSection>
           <BioSection>
             <BioYear>2019</BioYear>
-            Worked at Movetia, Barcelona as iOS developer developing frameworks
-            and tools using Swift. Also, got experience and fluency in working
-            with services in REST, NPM and YARN.
+            Worked at Movetia, Barcelona. Role as iOS developer building frameworks and tools using Swift.
           </BioSection>
           <BioSection>
             <BioYear>2020</BioYear>
-            Completed Degree in Videogames production and design at Universitat
-            Pompeu Fabra, Mataró
+            Graduated  in Videogames production and design degree at TecnoCampus - Universitat
+            Pompeu Fabra, Mataró.
           </BioSection>
           <BioSection>
             <BioYear>2020</BioYear>
-            Wroked at Pervasive-technologies, Barcelona as Software
-            developer. Responsive of Web development featuring multiple technologies
+            Wroked at Pervasive-technologies, Barcelona. Role as Full-stack developer. 
+            Responsive of Web development featuring multiple technologies
             with Fluter , React, Material UI and Node.js. Earned experience with
             services REST, Google Cloud Platform and backend web server.
-            Mandante to design web applications architecture and technical
+            Mandante to design web applications, architecture and technical
             documentation.
           </BioSection>
           <BioSection>
@@ -122,6 +118,10 @@ const Page = () => {
           <BioSection>
             <BioYear>2021</BioYear>
             Course TDD Node JS, Udemy
+          </BioSection>
+          <BioSection>
+            <BioYear>2022</BioYear>
+            Currently working at Penfield Digital. Role as Technical Architect in SFMC developing tools and applications.
           </BioSection>
         </Section>
 
